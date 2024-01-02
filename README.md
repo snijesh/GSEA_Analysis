@@ -61,9 +61,9 @@ The idea is that a high positive or negative enrichment score indicates that the
 
 Let's consider a simple example with a ranked list of 8 genes and a gene set containing 5 genes that are part of a pathway. The gene set is denoted by "A" and the pathway genes are indicated with asterisks:
 
-Ranked list of genes: \[G_1, G_2, G_3, G_4, G_5, G_6, G_7, G_8\]
+Ranked list of genes: **[G_1, G_2, G_3, G_4, G_5, G_6, G_7, G_8]**
 
-Gene set A: \[\ast G_1, \ast G_3, \ast G_5, \ast G_7, G_8\]
+Gene set A: **[ G_1, G_3, G_5, G_7, G_8]**
 
 Now, let's walk down the ranked list and calculate the running sum statistic and enrichment score:
 
